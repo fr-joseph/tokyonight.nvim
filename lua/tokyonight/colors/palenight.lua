@@ -19,8 +19,8 @@ local ret = {
   fg_dark = "#A6Accd",
   fg_gutter = "#3C435E",
   green = "#c3e88d",
-  green1 = "#80cbc4",
-  green2 = "#44b9b1",
+  green1 = "#5AC49D",
+  green2 = "#408966", -- "#44b9b1", "#1AEA86" "#4BA77A"
   magenta = "#c792ea",
   magenta2 = "#d787d7",
   orange = "#f78c6c",
@@ -31,9 +31,9 @@ local ret = {
   terminal_black = "#4E5579",
   yellow = "#ffcb6b",
   git = {
-    add = "#44b9b1",
-    change = "#717CB4",
-    delete = "#f78c6c",
+    add = "#c3e88d",
+    change = "#ffcb6b",
+    delete = "#ff5370",
   },
 }
 return ret
