@@ -1,14 +1,16 @@
 ---@class Palette
 local ret = {
 
-  -- main colors
   -- #bb80b3 #DAB6F1 #E880D2 #fca7ea #FF8CA0 #A97FA3
-  blue1 = "#FF8CA0", -- types, string format placeholders %v, builtins
-  magenta = "#c792ea", -- func, if, for, escape chars \n\t
-  purple = "#c792ea", -- keywords (return,range,etc)
-  blue = "#82aaff", -- func names
-  cyan = "#44b9b1", -- mod name prefix; pkg; import
-  green1 = "#44b9b1", -- properties
+  -- #89DDFF #A6Accd
+
+  -- main colors
+  blue1 = "#82aaff", -- types, fmt %v, builtins (panic,len,make)
+  magenta = "#c792ea", -- func, if, for, \n\t
+  purple = "#c792ea", -- keywords (return,range)
+  blue = "#44b9b1", -- func names
+  cyan = "#7ECBEA", -- mod name prefix; pkg; import
+  green1 = "#FF8CA0", -- properties
   green = "#c3e88d", -- strings
   orange = "#f78c6c", -- nums, consts, t/f
   yellow = "#ffcb6b", -- var names func formal params
@@ -23,11 +25,10 @@ local ret = {
   blue0 = "#545c7e", -- highight bg, tele, search
   dark3 = "#545c7e", -- flash muted fg, tele file annot
   comment = "#676E95", -- comments
-  fg_gutter = "#676E95", -- line nos, lualine bold side text #A6Accd
+  fg_gutter = "#676E95", -- line nos, lualine bold side text
   magenta2 = "#c792ea", -- flash label
 
   -- unknown
-  -- #89DDFF
   bg_dark1 = "#ff0000", -- ??
   blue2 = "#4fd6be", -- ??
   blue6 = "#80cbc4", -- ??
