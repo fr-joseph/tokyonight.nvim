@@ -25,7 +25,7 @@ local ret = {
   blue0 = "#545c7e", -- highight bg, tele, search
   dark3 = "#545c7e", -- flash muted fg, tele file annot
   comment = "#676E95", -- comments
-  fg_gutter = "#676E95", -- line nos, lualine bold side text
+  fg_gutter = "#414868", -- line nos, lualine bold side text
   magenta2 = "#c792ea", -- flash label
 
   -- unknown
